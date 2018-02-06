@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import time
 
-ckey = "4OpxHIoIs8zBdIj3QolIkiwuP"
-csecret = "Z7zMiz8Zj8Mo6TwuflwHUHcXTrIW2txQKjKVQYk7QxiFrqoTUZ"
-atoken = "4769508458-3dooIe2BcwwOTyT3dqyZx919S8AdHq2Vs1SLBFs"
-asecret = "mFfFQ6QzE21z5S9sj9c56Srkt4VqT9VglskH0Xa1W9fLB"
+ckey = ""
+csecret = ""
+atoken = ""
+asecret = ""
 
 
 class listener(StreamListener):
